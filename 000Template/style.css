@@ -1,0 +1,24 @@
+:root{
+    /* --color_primary:#;
+    --color_secondary:#;
+    --color_complementary:#;
+    --color_conteast:#; */
+    --side_content:400px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vb;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: var(--side_content);
+    height: var(--side_content);
+    background-color: #202020;
+}
